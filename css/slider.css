@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+html {
+    margin: 0;
+    padding: 0;  
+    background: transparent;
+}
+
+.text {
+  
+ padding: 0% !Important;
+    margin: 0%;
+    
+}
+
+#slider {
+    
+    background-image: url(../pictures/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+   
+}
+
+
+#slider ul {
+    
+/*     padding-top: 15%;*/
+  bottom: 20px; 
+    position: fixed;
+    list-style: none; 
+}
+
+#slider ul li a {
+/*     display: inline; */
+    
+    color: white;
+  
+    font-size: 30px;
+/*    position: relative;*/
+
+}
+
+
+.active {
+    color: blue;
+    
+}
+.active {
+    
+    color: blueviolet;
+    
+}
+
+
